@@ -1,0 +1,27 @@
+Contents of flicker_sim.zip
+===========================
+
+flicker_sim
+        Flickermeter Simulator according IEC 61000-4-15
+
+Helper functions
+----------------
+
+power_to_line_voltage
+        Generate line voltage signal from a vector of power samples
+power_to_phase_control_line_voltage
+        Generate phase controlled line voltage signal
+
+Examples
+--------
+
+example_heater
+        Example using measured data of a heater control system
+heater_1.mat .. heater_4.mat
+        Input data for example_heater
+example_phase_control
+        Example investigating phase control to reduce flicker
+example_testbench_120V_60Hz
+        Example for performance (accuracy) testing of flicker_sim
+example_testbench_230V_50Hz
+        Example for performance (accuracy) testing of flicker_sim
